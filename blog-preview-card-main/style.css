@@ -1,0 +1,91 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.card {
+  margin-block: 9.5625rem;
+  width: 24rem;
+  height: 32.5rem;
+  background-color: hsl(0, 0%, 100%);
+  border: 2px solid hsl(0, 0%, 7%);
+  border-radius: 10px;
+  padding: 1.25rem;
+  box-shadow: 10px 10px black;
+}
+
+.card-img {
+  border-radius: 20px;
+  padding-bottom: 1.25rem;
+}
+
+.btn {
+  padding: 0.75rem;
+  border: none;
+  color: black;
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.publish {
+  font-family: "Figtree", sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+  padding-block: 1rem;
+  color: hsl(0, 0%, 7%);
+}
+h1 {
+  font-family: "Figtree", sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  color: hsl(0, 0%, 7%);
+}
+h1:hover {
+  cursor: pointer;
+  color: hsl(47, 88%, 63%);
+}
+.text {
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  color: hsl(0, 0%, 42%);
+  line-height: 20px;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.person img {
+  width: 30px;
+}
+.person h4 {
+  font-family: "Figtree", sans-serif;
+  color: hsl(0, 0%, 7%);
+}
+@media only screen and (max-width: 960px) {
+  .card {
+    margin-block: 5.625rem;
+    width: 20.4rem;
+    height: 31.25rem;
+    background-color: hsl(0, 0%, 100%);
+  }
+  .card-img svg {
+    width: 17.5rem;
+    height: 12.5rem;
+  }
+}
